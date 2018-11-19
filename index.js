@@ -1,24 +1,17 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
 var array = [];
-for(var i=0; i<musicians.length; i++){
+for(var i=0; i < musicians.length; i++) {
 array.push(musicians[i] + ' plays ' + instruments[i]);
-musicianInstrument[i]=musicianString;
 }
-return musicianInstrument;
+return array;
 }
 
 
-const facts=[
-'He was the last Beatle to learn to drive',
-'He was never a vegetarian',
-'He was a choir boy and boy scout',
-'He hated the sound of his own voice'
-];
 function johnLennonFacts(factsArray){
-var i=0;
-var newArray=[];
-while (factsArray.length > i){
+var results = [];
+var count=0;
+while (count < facts.length > i){
 newArray.push(`${factsArray[i]}` + “!!!”);
 i++;
 }
