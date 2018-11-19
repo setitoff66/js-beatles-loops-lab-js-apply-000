@@ -11,9 +11,9 @@ return array;
 function johnLennonFacts(factsArray){
 var results = [];
 var count=0;
-while (count < facts.length > i){
-newArray.push(`${factsArray[i]}` + “!!!”);
-i++;
+while (count < facts.length ){
+results.push(facts[count]}` + “!!!”);
+count++;
 }
 return newArray;
 }
